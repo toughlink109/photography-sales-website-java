@@ -6,3 +6,9 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+# 忽略所有 target 目录及其内容
+/code/springboot/target/
+
+# 忽略所有 jar 包（如果有其他地方也生成 jar，可以加这一行）
+*.jar
